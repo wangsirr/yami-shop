@@ -118,6 +118,12 @@ public class Product implements Serializable {
     private Date putawayTime;
 
     /**
+     * 拼团数量
+     */
+    private Integer groupNum;
+
+
+    /**
      * 版本
      */
     @Version

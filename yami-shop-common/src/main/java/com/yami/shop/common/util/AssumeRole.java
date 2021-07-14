@@ -14,7 +14,7 @@ public class AssumeRole {
     public static void main(String[] args) {
         //构建一个阿里云客户端，用于发起请求。
         //构建阿里云客户端时需要设置AccessKey ID和AccessKey Secret。
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4GFYZVDUkeZaaqxSpwj1", "acjl4tbo5VUlKuogn5SVzyEYLk2C8A");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4G去掉F中文YZVDU去掉keZaaq中文xSpwj1", "acjl4tbo5VUlKuogn5SVzyEYLk2C8A");
         IAcsClient client = new DefaultAcsClient(profile);
 
         //构造请求，设置参数。关于参数含义和设置方法，请参见API参考。

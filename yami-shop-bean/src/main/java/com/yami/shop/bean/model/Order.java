@@ -113,6 +113,7 @@ public class Order implements Serializable {
 
     private Integer productNums;
 
+
     /**
      * 订购时间
      */

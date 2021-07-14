@@ -104,4 +104,9 @@ public class ProductParam {
      */
     private List<Long> tagList;
 
+
+    /**
+     * 拼团数量
+     */
+    private Integer groupNum;
 }
